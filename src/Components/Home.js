@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 function Home() {
   return (
@@ -7,6 +7,7 @@ function Home() {
       <section>
         <h1>Home</h1>
       </section>
+      <Outlet />
     </>
   );
 }
